@@ -1,4 +1,4 @@
-package com.sectio.mynavigationdrawer
+package com.haykal.mynavigationdrawer
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

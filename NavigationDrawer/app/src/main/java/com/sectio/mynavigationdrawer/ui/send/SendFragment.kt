@@ -1,4 +1,4 @@
-package com.sectio.mynavigationdrawer.ui.send
+package com.haykal.mynavigationdrawer.ui.send
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import com.sectio.mynavigationdrawer.R
+import com.haykal.mynavigationdrawer.R
 
 class SendFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package com.sectio.mynavigationdrawer;
+package com.haykal.mynavigationdrawer;
 
 import android.content.Context;
 

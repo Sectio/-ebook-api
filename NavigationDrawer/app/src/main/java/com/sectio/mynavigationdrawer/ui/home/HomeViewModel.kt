@@ -1,4 +1,4 @@
-package com.sectio.mynavigationdrawer.ui.home
+package com.haykal.mynavigationdrawer.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
