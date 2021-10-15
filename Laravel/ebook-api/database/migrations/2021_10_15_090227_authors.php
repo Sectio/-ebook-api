@@ -13,7 +13,16 @@ class Authors extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('authors', function (Blueprint $table) {
+            $table->id();
+            $table->string('name');
+            $table->string('date_of_birth');
+            $table->string('place_of_birth');
+            $table->string('gender');
+            $table->string('email');
+            $table->string('hp');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -23,6 +32,6 @@ class Authors extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('authors');
     }
 }
