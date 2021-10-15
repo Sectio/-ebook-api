@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class Book extends Migration
+class CreateBooksTable extends Migration
 {
     /**
      * Run the migrations.
@@ -23,7 +23,7 @@ class Book extends Migration
             $table->timestamps();
         });
     }
-    
+
     /**
      * Reverse the migrations.
      *
